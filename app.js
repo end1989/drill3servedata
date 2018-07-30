@@ -10,7 +10,7 @@ function findById(data, id) {
     for (let i = 0; i < data.length; i++) {
         let holder = data[i].id.toString();
         if (holder === id) {
-            return data[i].toString();
+            return data[i];
         }
     }
 }
